@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm install react-router-dom@6 && npm install reactjs-navbar && npm install reactjs-navbar
+      - run: npm install react-router-dom@6 && npm install --save reactjs-navbar && npm install --save reactjs-navbar
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
