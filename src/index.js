@@ -7,6 +7,8 @@ import Timer from './Pages/Timer';
 import Welcome from './Pages/Welcome';
 // Components
 import NavBar from './Pages/Navbar';
+// Firebase
+import { initializeApp } from "firebase/app";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,7 +26,7 @@ root.render(
 
 // firebase deploy --only hosting
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
